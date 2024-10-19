@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+table,tr,td{
+    border: 1px solid red;
+    border-radius: 9px;
+    text-align: center;
+    text-transform: capitalize;
+}
+table{
+   width: 900px;
+   background-color: aqua;
+}
+td{
+    background-color: rgb(62, 36, 74);
+}
+section{
+    height: 780px;
+    width: 1400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#touch{
+    height: 200px;
+    width: 250px;
+   
+}
+tr{
+    height: 40px;
+   
+}
+table{
+    animation: data 1s ease-in 0s infinite ;
+}
+@keyframes data{
+    0%{
+        /* background-color: chartreuse; */
+        /* background-color: greenyellow;
+         */
+       
+    }
+    50%{
+        /* background-color: chocolate; */
+        background-color: greenyellow;
+        
+        color: rgb(130, 189, 26);
+    }
+    75%{
+        /* background-color: cornflowerblue; */
+        color: red;
+    }
+}
