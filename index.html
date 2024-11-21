@@ -7,109 +7,105 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <input type="text" id="display" disabled placeholder="Write here....">
      <section>
-        
         <div class="keyboard">
-           
             <table>
                 <tr>
                     <td>ESC</td>
-                    <td onclick="pick('F1')">F1</td>
-                    <td onclick="pick('F2')">F2</td>
-                    <td onclick="pick('F3')">F3</td>
-                    <td onclick="pick('F4')">F4</td>
-                    <td onclick="pick('F5')">F5</td>
-                    <td onclick="pick('F6')">F6</td>
-                    <td onclick="pick('F7')">F7</td>
-                    <td onclick="pick('f8')">f8</td>
-                    <td onclick="pick('f9')">f9</td>
-                    <td onclick="pick('f10')">f10</td>
-                    <td onclick="pick('f11')">f11</td>
-                    <td onclick="pick('f12')">f12</td>
-                    <td onclick="clearDisplay()">delete</td>
-                    <td onclick="pick('@')">@</td>
+                    <td>F1</td>
+                    <td>F2</td>
+                    <td>F3</td>
+                    <td>F4</td>
+                    <td>F5</td>
+                    <td>F6</td>
+                    <td>F7</td>
+                    <td>f8</td>
+                    <td>f9</td>
+                    <td>f10</td>
+                    <td>f11</td>
+                    <td>f12</td>
+                    <td>delete</td>
+                    <td>@</td>
                 </tr>
                 <tr>
-                    <td  onclick="pick('~')">~</td>
-                    <td  onclick="pick('1')">1</td>
-                    <td  onclick="pick('2')">2</td>
-                    <td  onclick="pick('3')">3</td>
-                    <td  onclick="pick('4')">4</td>
-                    <td  onclick="pick('5')">5</td>
-                    <td  onclick="pick('6')">6</td>
-                    <td  onclick="pick('7')">7</td>
-                    <td  onclick="pick('8')">8</td>
-                    <td  onclick="pick('9')">9</td>
-                    <td  onclick="pick('0')">0</td>
-                    <td  onclick="pick('=')">=</td>
-                    <td colspan="2" onclick="clearDisplay()">Backspace</td>
-                    <td  onclick="pick('home')">home</td>
+                    <td>~</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>0</td>
+                    <td>=</td>
+                    <td colspan="2">backspace</td>
+                    <td>home</td>
                     
                 </tr>
                 <tr>
-                    <td  onclick="pick('tab')">tab</td>
-                    <td  onclick="pick('q')">q</td>
-                    <td  onclick="pick('w')">w</td>
-                    <td  onclick="pick('e')">e</td>
-                    <td  onclick="pick('r')">r</td>
-                    <td  onclick="pick('t')">t</td>
-                    <td  onclick="pick('y')">y</td>
-                    <td  onclick="pick('u')">u</td>
-                    <td  onclick="pick('i')">i</td>
-                    <td  onclick="pick('o')">o</td>
-                    <td  onclick="pick('p')">p</td>
-                    <td  onclick="pick('[')">[</td>
-                    <td  onclick="pick(']')">]</td>
-                    <td  onclick="pick('\')">\</td>
-                    <td  onclick="pick('end')">end</td>
+                    <td>tab</td>
+                    <td>q</td>
+                    <td>w</td>
+                    <td>e</td>
+                    <td>r</td>
+                    <td>t</td>
+                    <td>y</td>
+                    <td>u</td>
+                    <td>i</td>
+                    <td>o</td>
+                    <td>p</td>
+                    <td>[</td>
+                    <td>]</td>
+                    <td>\</td>
+                    <td>end</td>
                 </tr>
                 <tr>
-                    <td  onclick="pick('caps lock')">caps lock</td>
-                    <td  onclick="pick('a')">a</td>
-                    <td  onclick="pick('s')">s</td>
-                    <td  onclick="pick('d')">d</td>
-                    <td  onclick="pick('f')">f</td>
-                    <td  onclick="pick('g')">g</td>
-                    <td  onclick="pick('h')">h</td>
-                    <td  onclick="pick('j')">j</td>
-                    <td  onclick="pick('k')">k</td>
-                    <td onclick="pick('l')">l</td>
-                    <td onclick="pick(';')">;</td>
-                    <td onclick="pick(''')">'</td>
-                    <td colspan="2" >enter</td>
-                    <td onclick="pick('pgUp')">pgUp</td>
+                    <td>Caps lock</td>
+                    <td>a</td>
+                    <td>s</td>
+                    <td>d</td>
+                    <td>f</td>
+                    <td>g</td>
+                    <td>h</td>
+                    <td>j</td>
+                    <td>k</td>
+                    <td>l</td>
+                    <td>;</td>
+                    <td>'</td>
+                    <td colspan="2">enter</td>
+                    <td>pgUp</td>
                 
                 </tr>
                 <tr>
-                    <td colspan="2" onclick="pick('1')">shift</td>
-                    <td onclick="pick('z')">z</td>
-                    <td onclick="pick('x')">x</td>
-                    <td onclick="pick('c')">c</td>
-                    <td onclick="pick('v')">v</td>
-                    <td onclick="pick('b')">b</td>
-                    <td onclick="pick('n')">n</td>
-                    <td onclick="pick('m')">m</td>
-                    <td onclick="pick(',')">,</td>
-                    <td onclick="pick('.')">.</td>
-                    <td onclick="pick('/')">/</td>
-                    <td onclick="pick('shift')">shift</td>
-                    <td onclick="pick('uP')">uP</td>
-                    <td onclick="pick('pgDn')">pgDn</td>
+                    <td colspan="2">shift</td>
+                    <td>z</td>
+                    <td>x</td>
+                    <td>c</td>
+                    <td>v</td>
+                    <td>b</td>
+                    <td>n</td>
+                    <td>m</td>
+                    <td>,</td>
+                    <td>.</td>
+                    <td>/</td>
+                    <td>shift</td>
+                    <td>uP</td>
+                    <td>pgDn</td>
                    
                 </tr>
                 <tr>
-                    <td onclick="pick('ctrl')">ctrl</td>
-                    <td onclick="pick('fn')">fn</td>
-                    <td onclick="pick('windows')">windows</td>
-                    <td onclick="pick('alt')">alt</td>
+                    <td>ctrl</td>
+                    <td>fn</td>
+                    <td>windos</td>
+                    <td>alt</td>
                     <td colspan="6">space tab</td>
-                    <td onclick="pick('alt')">alt</td>
-                    <td onclick="pick('ctrl')">ctrl</td>
-                    <td onclick="pick('back')">back</td>
-                    <td onclick="pick('down')">down</td>
-                    <td onclick="pick('forward')">forward</td>
+                    <td>alt</td>
+                    <td>ctrl</td>
+                    <td>back</td>
+                    <td>down</td>
+                    <td>forwrd</td>
                     
                 </tr>
           <tr>
@@ -127,7 +123,5 @@
             </table>
         </div>
      </section>
-    </div>
-     <script src="script.js"></script>
 </body>
 </html>

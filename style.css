@@ -6,29 +6,7 @@
 body{
     background-color: black;
     color: white;
-   
-    
-    
-    
-   
-}
-.container{
-   
-    width: 900px;
-    
-    
-}
-input{
-    height: 50px;
-    width: 888px;
-    color: black;
-    background-color: white;
-    font-size: 30px;
-    text-transform: uppercase;
-    padding-left: 10px;
-    border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
+
 }
 table,tr,td{
     border: 1px solid red;
@@ -42,30 +20,18 @@ table{
 }
 td{
     background-color: rgb(62, 36, 74);
-    cursor: pointer;
 }
 section{
     height: 780px;
-    width: 900px;
-    /* width: 1400px; */
-   /* display: flex;
+    width: 1400px;
+   display: flex;
    justify-content: center;
-   align-items: center; */
-}
-.keyboard{
-    border-bottom: 10px solid red;
-    box-shadow: 0px 3px 10px rgb(0, 255, 255);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+   align-items: center;
 }
 #touch{
     height: 200px;
     width: 250px;
-    font-size: 70px;
-    font-weight: bold;
-    background: linear-gradient(to left, rgb(122, 84, 84),rgb(236, 107, 107),rgb(147, 147, 92),pink,rgb(76, 105, 76),grey);
+   
 }
 tr{
     height: 40px;
