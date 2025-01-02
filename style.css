@@ -14,6 +14,10 @@ table,tr,td{
     text-align: center;
     text-transform: capitalize;
 }
+
+#spacetb{
+    letter-spacing: 10px;
+}
 table{
    width: 900px;
    background-color: aqua;
@@ -28,10 +32,18 @@ section{
    justify-content: center;
    align-items: center;
 }
+
+#blank{
+    letter-spacing: 100px;
+    font-weight: bolder;
+}
 #touch{
     height: 200px;
     width: 250px;
-   
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: 100px;
+    
 }
 tr{
     height: 40px;
